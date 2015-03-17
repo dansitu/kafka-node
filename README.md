@@ -56,7 +56,6 @@ var kafka = require('kafka-node'),
 
 * `0`: No compression
 * `1`: Compress using GZip
-* `2`: Compress using snappy
 
 Example:
 
@@ -556,9 +555,6 @@ var kafka = require('kafka-node'),
     ], function (err, data) {
     });
 ```
-
-# Todo
-* Compression: gzip & snappy (√)
 
 # LICENSE - "MIT"
 Copyright (c) 2013 Sohu.com
